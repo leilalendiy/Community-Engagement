@@ -1,0 +1,25 @@
+p {
+    font-size: 12pt;
+    font-family: Helvetica;
+}
+
+h2 {
+    text-align: center;
+}
+
+.carousel-left, .carousel-right {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.carousel-left:hover, .carousel-right:hover {
+  opacity: 1
+}
+
+#container {
+    color: #000080;
+    width: 100%;
+    margin-left: 5em auto;
+    margin-right: 5em auto;
+    background:#fff;
+}

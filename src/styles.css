@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.navbar {
+  background-color: rgba(8,	30,	63, 0.85);
+}
+
+.navbar-collapse a:hover {
+  color: #fff !important;
+}
+
+.navbar-collapse a, .navbar-brand {
+  color: #B6862C !important;
+}
+
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  text-decoration: underline;
+}
