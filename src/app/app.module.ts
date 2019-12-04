@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AfricaComponent } from './africa/africa.component';
 import { AsiaComponent } from './asia/asia.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ReferencesComponent } from './references/references.component';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
     AfricaComponent,
     AsiaComponent,
     WelcomeComponent,
+    ReferencesComponent,
   ],
   imports: [
     BrowserModule,

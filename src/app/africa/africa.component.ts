@@ -24,13 +24,14 @@ export class AfricaComponent implements OnInit {
 
   audio = new Audio();
 
-  playAudio(path:string){
+  playAudio(path:string) {
     this.audio.src = path;
     this.audio.volume = 0.5;
     this.audio.load();
     this.audio.play();
   }
-  stopAudio(){
+
+  stopAudio() {
     this.audio.pause();
     this.audio.currentTime = 0;
   }

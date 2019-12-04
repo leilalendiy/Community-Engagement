@@ -1,12 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
 
 .navbar {
-  background-color: rgba(8,	30,	63, 0.85);
+  background-image: url("assets/f1fae21d.png");
 }
 
 .navbar-collapse a:hover {
-  color: #fff !important;
+  color: #FFF !important;
 }
 
 .navbar-collapse a, .navbar-brand {
@@ -14,12 +19,16 @@
 }
 
 .jumbotron {
-  background-color: #fff;
+  color: #112D54;
+  background-color: #B6862C;
+  border-radius: 0px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
 h3 {
+  color: #112D54;
   text-decoration: underline;
+  text-decoration-color: #B6862C;
 }
