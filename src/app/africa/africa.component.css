@@ -38,4 +38,8 @@ h2 {
   #right {
     margin-right: auto;
   }
+
+  .items, .items img, .slides-wrapper {
+    max-width: 90vw !important;
+  }
 }
